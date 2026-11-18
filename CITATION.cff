@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Code, per-image scores and analysis outputs for: Do explanations reveal when deepfake detectors fail?"
+type: software
+authors:
+  - family-names: Sugiantoro
+    given-names: Bambang
+    email: bambang.sugiantoro@uin-suka.ac.id
+    affiliation: "Department of Informatics, UIN Sunan Kalijaga Yogyakarta, Indonesia"
+  - family-names: Hafizuddin
+    given-names: Faiz Akhmad
+    affiliation: "Department of Informatics, UIN Sunan Kalijaga Yogyakarta, Indonesia"
+license: MIT
+repository-code: "https://github.com/bambangsugiantoro/n10-explanation-audit-deepfake"
+date-released: "2026-11-19"

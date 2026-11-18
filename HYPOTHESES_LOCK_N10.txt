@@ -1,0 +1,1 @@
+H1-H4 section sha256 (locked 2026-11-18, before any run): b7ecfb941ef4a65038b87f09fd35d2d99b2e0ced5507394975fd5238847c0f57
