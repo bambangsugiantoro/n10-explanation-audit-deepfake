@@ -1,0 +1,10 @@
+## Pertanyaan riset dan hipotesis (dikunci sebelum eksperimen)
+RQ1. Apakah kesepakatan antar-penjelas (agreement) memprediksi kesalahan detektor? Skala: 4 detektor x 3-4 penjelas x 15-20 generator DF40 + DiFF.
+ - H1: AUROC agreement untuk error di antara keputusan yang dirilis tidak berbeda dari 0,5 di mayoritas sel (replikasi temuan negatif N10 pada skala besar; hasil boleh membalik).
+RQ2. Apakah bukti dari kelas yang tidak dipilih (counter-class evidence) memprediksi error lebih baik daripada kepercayaan (MSP) dan agreement?
+ - H2: AUROC counter-class > MSP pada generator tak terlihat, CI 95% bootstrap tidak mencakup 0.
+ - H3: keunggulan H2 bertahan setelah dikendalikan terhadap kelas gambar (stratifikasi real/fake) dan terhadap prevalensi.
+RQ3. Apakah sinyal counter-class berfungsi sebagai alarm shift tanpa label?
+ - H4: AUROC pemisah sumber vs target > MSP dan > agreement pada >= 70% generator.
+Kriteria negatif: bila H2 gagal, naskah tetap dikirim sebagai audit negatif skala besar (dipasarkan ke jurnal berbasis soundness).
+
